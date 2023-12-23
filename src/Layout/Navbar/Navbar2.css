@@ -1,0 +1,13 @@
+
+
+@media screen and (max-width: 300px){
+.styleRespons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex: 0 0 auto;
+    margin:10px auto;
+    width: 50%;
+}
+  
+ }

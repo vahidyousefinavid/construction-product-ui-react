@@ -1,0 +1,15 @@
+.carosel{
+   width: 60rem;
+}
+
+@media screen and (max-width: 1020px){
+   .styleRespons{
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+       flex: 0 0 auto;
+       margin:10px auto;
+       width: 50%;
+   }
+     
+    }

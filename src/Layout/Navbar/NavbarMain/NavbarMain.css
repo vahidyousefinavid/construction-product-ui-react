@@ -1,0 +1,24 @@
+
+
+.styleInput input{
+    padding: 10px 30px;
+    background-color: #e8e6e6;
+    border-radius: 50px;
+    width: 80%;
+
+    /* color: #2310b7; */
+}
+
+.styleInput input:focus{
+    outline: none;
+}
+
+
+@media screen and (max-width: 1020px){
+
+    .styleLogo img{
+            display: none;
+    }
+ }
+
+
