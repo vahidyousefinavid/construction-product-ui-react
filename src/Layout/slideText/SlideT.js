@@ -4,8 +4,8 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./SlideT.css";
-import photo1 from "./../../image/slide1.png";
-import photo2 from "./../../image/slide2.png";
+import photo1 from "./../../image/home3.avif";
+import photo2 from "./../../image/home1.jpg";
 // import photo3 from './../../image/slide3.png'
 
 const SliText = [
@@ -14,16 +14,18 @@ const SliText = [
     src: photo1,
     title1: "اخبار1",
     title2: "500 مشتری",
-    text: "کلید ارتباط موثر با جهان سخن گفتن به زبان جهانیان است",
+    text1: "کلید ارتباط موثر با جهان سخن گفتن به زبان جهانیان است. خدمات ترجمه تخصصی ما که در کلاس جهانی ارائه می‌شود به شما کمک می‌کند بازارهای جدیدی بیابید و خود را به خوبی به شرکای بین المللی معرفی کنید. همچنین، طیف گسترده مترجم‌های ما، شما را قادر می‌سازد تخصصی‌ترین متون آکادمیک را بر اساس استانداردهای پذیرش معتبرترین ژورنال‌ها ترجمه کنید.",
     date: "1.2.2023",
+    text2:"بر اساس استانداردهای پذیرش معتبرترین ژورنال‌ها ترجمه کنید"
   },
   {
     id: 2,
     src: photo2,
     title1: "اخبار2",
     title2: "300 مشتری",
-    text: "کلید ارتباط موثر با جهان سخن گفتن به زبان جهانیان است",
+    text1: "کلید ارتباط موثر با جهان سخن گفتن به زبان جهانیان است. خدمات ترجمه تخصصی ما که در کلاس جهانی ارائه می‌شود به شما کمک می‌کند بازارهای جدیدی بیابید و خود را به خوبی به شرکای بین المللی معرفی کنید. همچنین، طیف گسترده مترجم‌های ما، شما را قادر می‌سازد تخصصی‌ترین متون آکادمیک را بر اساس استانداردهای پذیرش معتبرترین ژورنال‌ها ترجمه کنید.",
     date: "3.5.2023",
+    text2:"بر اساس استانداردهای پذیرش معتبرترین ژورنال‌ها ترجمه کنید"
   },
 ];
 const SlideT = () => {
@@ -52,7 +54,7 @@ const SlideT = () => {
                     >
                       {item.title2}
                     </h1>
-                    <p>{item.text}</p>
+                    <p style={{textAlign:"justify",color:"#7b7777"}}>{item.text1}</p>
                   </div>
                 </div>
                 <div className="col-sm-12 col-lg-5 ">
@@ -61,9 +63,12 @@ const SlideT = () => {
                       {item.title1}
                     </h1>
                   </div>
-                  <div className="row text-center mb-12 styleRow">
+                  <div
+                    className="row text-center mb-12 styleRow"
+                    style={{ alignItems: "center" }}
+                  >
                     <div className="col-5">
-                      <div className="">
+                      <div>
                         <h6
                           style={{
                             marginBottom: "10px",
@@ -79,8 +84,8 @@ const SlideT = () => {
                           className="font-iransans"
                           style={{ textAlign: "justify" }}
                         >
-                          {" "}
-                          {item.text}
+                         
+                          {item.text2}
                         </p>
                       </div>
                     </div>
@@ -90,7 +95,10 @@ const SlideT = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="row text-center mb-12 styleRow">
+                  <div
+                    className="row text-center mb-12 styleRow"
+                    style={{ alignItems: "center" }}
+                  >
                     <div className="col-5">
                       <div className="">
                         <h6
@@ -108,7 +116,7 @@ const SlideT = () => {
                           className="font-iransans"
                           style={{ textAlign: "justify" }}
                         >
-                          {item.text}
+                          {item.text2}
                         </p>
                       </div>
                     </div>
@@ -118,7 +126,10 @@ const SlideT = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="row text-center mb-12 styleRow">
+                  <div
+                    className="row text-center mb-12 styleRow"
+                    style={{ alignItems: "center" }}
+                  >
                     <div className="col-5">
                       <div className="">
                         <h6
@@ -136,7 +147,7 @@ const SlideT = () => {
                           className="font-iransans"
                           style={{ textAlign: "justify" }}
                         >
-                          {item.text}
+                          {item.text2}
                         </p>
                       </div>
                     </div>
