@@ -30,7 +30,7 @@ const Slider = () => {
   return (
     <div className="Containerr">
       <Swiper
-        style={{ marginBottom: "50px" }}
+        style={{ marginBottom: "50px",paddingBottom:"30px" }}
         slidesPerView={1}
         spaceBetween={10}
         pagination={{
@@ -60,10 +60,23 @@ const Slider = () => {
         {Slides.map((item, index) => (
           <SwiperSlide key={index} style={{ position: "relative" }}>
             <img style={{ height: "25rem" }} src={item.src} />
-            <h4 className="font-iransans" style={{ position: "absolute", bottom: "3rem", fontSize: "20px",fontWeight:"bold" }}>
+            <h4
+              className="font-iransans"
+              style={{
+                position: "absolute",
+                bottom: "3rem",
+                fontSize: "20px",
+                fontWeight: "bold",
+              }}
+            >
               ازخشت اول با شما هستیم
             </h4>
-            <span className="font-iransans absolute bottom-3" style={{color:"#000", fontSize:"15px"}}>دیدن پروژه</span>
+            <span
+              className="font-iransans absolute bottom-3"
+              style={{ color: "#000", fontSize: "15px" }}
+            >
+              دیدن پروژه
+            </span>
           </SwiperSlide>
         ))}
 
