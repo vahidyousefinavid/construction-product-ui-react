@@ -1,10 +1,18 @@
 import React from 'react'
-import Navbar from './Layout/Navbar/Navbar'
+import NavbarMain from './Layout/Navbar/NavbarMain'
+import ImageHero from './Layout/ImageHero/ImageHero'
+import Ht from './Layout/ListHesderText/Ht'
+import ListH from './Layout/ListHero/ListH'
+import Slider from './Layout/Caruosel/Slider'
 
 const App = () => {
   return (
     <div>
-      <Navbar/>
+     <NavbarMain/>
+     <ImageHero/>
+     <Ht/>
+     <ListH/>
+     <Slider/>
     </div>
   )
 }

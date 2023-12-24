@@ -1,0 +1,10 @@
+.StyleBg{
+    background-image: url('../../image/imageHero.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width:1300px;
+    height: 36rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
