@@ -6,6 +6,7 @@ import ListH from './Layout/ListHero/ListH'
 import Slider from './Layout/Caruosel/Slider'
 import Achieve from './Layout/Achivement/Achieve'
 import SlideT from './Layout/slideText/SlideT'
+import Footer from './Layout/Footer/Footer'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
      <Slider/>
      <Achieve/>
      <SlideT/>
+     <Footer/>
     </div>
   )
 }

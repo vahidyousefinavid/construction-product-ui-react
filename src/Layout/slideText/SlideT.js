@@ -28,7 +28,7 @@ const SliText = [
 ];
 const SlideT = () => {
   return (
-    <div className="mb-12">
+    <div className="mb-12 Conntainer">
       <div>
         <Swiper
           spaceBetween={30}
@@ -40,7 +40,7 @@ const SlideT = () => {
         >
           {SliText.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="row mb-6">
+              <div className="row mb-6 justify-evenly">
                 <div className="col-5">
                   <div>
                     <h1 style={{fontSize:"40px",fontWeight:"bold",marginBottom:"4rem"}}>{item.title2}</h1>

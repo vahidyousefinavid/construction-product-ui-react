@@ -1,8 +1,8 @@
 import React from "react";
 import "./ListH.css";
 import Home1 from "../../image/home1.jpg";
-import Home2 from "../../image/home3.avif";
-import Home3 from "../../image/home1.jpg";
+import Home2 from "../../image/home2.avif";
+import Home3 from "../../image/home3.avif";
 const Itemlist = [
   {
     id: 1,

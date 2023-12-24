@@ -1,0 +1,15 @@
+.Conntaineer{
+    max-width: 1300px;
+    margin: 0 auto;   
+    color: #2d2c33;
+}
+
+input{
+    background-color :#5e5d63;
+    border-radius: 2px;
+    padding: 5px 12px;
+}
+
+input:focus{
+    outline: none;
+}
