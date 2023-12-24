@@ -16,7 +16,7 @@ const Achieve = () => {
           <div className="relative">
             <img
               style={{ width: "140px", height: "10rem" }}
-              className="sm:w-2/3"
+              className="styleImg"
               src={require("../../image/constroc.png")}
             />
             <h1

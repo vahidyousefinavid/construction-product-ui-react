@@ -35,7 +35,7 @@ const ListH = () => {
   return (
     <>
       <div className="Containers">
-        <div className="row items-center mb-10">
+        <div className="row StyleHeader items-center mb-10">
           <div className="col-6" style={{ textAlign: "start" }}>
             <div>
               <img src={require("../../image/icons8-target-50.png")} />
@@ -50,17 +50,17 @@ const ListH = () => {
         <div className="row">
           {Itemlist.map((item,index) => (
             <div key={index} className="col-sm-12">
-              <div className="row mb-10 justify-between sm: w-3/4 mx-auto" style={{direction:`${item.dir}`,}}>
-                <div className="col-3">
+              <div className="row mb-10 justify-between sm: mx-auto" style={{direction:`${item.dir}`,}}>
+                <div className="col-sm-6 col-lg-3">
                   <div>
                   <h1 className="font-iransans" style={{fontSize:"20px",fontWeight:"bold"}}>{item.title}</h1>
                   <p className="font-iransans"style={{color:"#7b7777",fontWeight:"bold"}}>{item.type}</p>
                   <span style={{color:"#ec9146", fontSize:"10px",fontWeight:"bold",cursor:"pointer"}}>بیشتر بدانید</span>
                   </div>
                 </div>
-                <div className="col-8">
-                  <div>
-                    <img style={{width:`${item.width}`,height:`${item.height}`}} src={item.src}/>
+                <div className="col-sm-12 col-lg-8">
+                  <div className="styleDivImg" style={{width:"100%"}}>
+                    <img className="styleImag" style={{width:`${item.width}`,height:`${item.height}`}} src={item.src}/>
                   </div>
                   <div>
 

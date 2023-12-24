@@ -8,3 +8,15 @@
     flex-direction: row;
     align-items: center;
 }
+
+
+@media screen and (max-width: 1020px) {
+   .StyleBg{
+    display: flex;
+    width: 100%;
+   }
+   .styleText{
+        text-align: center;
+        margin: 0 auto;
+   }
+ }

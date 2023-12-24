@@ -2,7 +2,6 @@ import React from "react";
 // import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-
 import Logo from "./../../image/Logo.svg";
 import { Link } from "react-router-dom";
 import "./NavbarMain.css";
@@ -17,11 +16,11 @@ const NavbarMain = () => {
             id="basic-navbar-nav"
             className="justify-around sm:z-0"
           >
-            <div className="col-lg-1 text-center">
+            <div className=" styleLang col-lg-1 text-center">
               <span>فارسی/انگلیسی</span>
             </div>
             <div className="col-lg-8">
-              <Nav className="me-auto justify-center">
+              <Nav className="me-auto justify-center styleNAv">
                 <Nav.Link
                   href="#home"
                   style={{ color: "#000", fontWeight: "bold" }}
@@ -34,18 +33,17 @@ const NavbarMain = () => {
                 >
                   دیده شوید
                 </Nav.Link>
-                
+
                 <Nav.Link
                   href="#link"
                   style={{ color: "#000", fontWeight: "bold" }}
                 >
                   درباره ما
-                  
                 </Nav.Link>
-                <Nav.Link
+                {/* <Nav.Link
                   href="#link"
                   style={{ color: "#000", fontWeight: "bold" }}
-                ></Nav.Link>
+                ></Nav.Link> */}
                 <Nav.Link
                   href="#link"
                   style={{ color: "#000", fontWeight: "bold" }}
@@ -62,7 +60,7 @@ const NavbarMain = () => {
             </div>
             <div className="col-lg-1">
               <span>
-                <img className="w-15" src={Logo} />
+                <img className="w-15 styleImg" src={Logo} />
               </span>
             </div>
           </Navbar.Collapse>

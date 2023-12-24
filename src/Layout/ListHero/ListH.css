@@ -2,3 +2,17 @@
     max-width: 900px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1020px) {
+  .StyleHeader{
+    display: flex;
+    margin: 0 auto;
+  }
+  .styleDivImg{
+    width: 100%;
+  }
+  .styleImag{
+    width: 100% !important;
+  }
+ }
+

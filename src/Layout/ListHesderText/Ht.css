@@ -3,3 +3,14 @@
     margin: 0 auto;
     /* color: #7b7777; */
 }
+
+
+@media screen and (max-width: 1020px) {
+
+    .styleRow{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+ 
+ }

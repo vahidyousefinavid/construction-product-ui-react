@@ -41,53 +41,109 @@ const SlideT = () => {
           {SliText.map((item, index) => (
             <SwiperSlide key={index}>
               <div className="row mb-6 justify-evenly">
-                <div className="col-5">
+                <div className=" col-sm-12 col-lg-5">
                   <div>
-                    <h1 style={{fontSize:"40px",fontWeight:"bold",marginBottom:"4rem"}}>{item.title2}</h1>
+                    <h1
+                      style={{
+                        fontSize: "40px",
+                        fontWeight: "bold",
+                        marginBottom: "4rem",
+                      }}
+                    >
+                      {item.title2}
+                    </h1>
                     <p>{item.text}</p>
                   </div>
                 </div>
-                <div className="col-5 ">
+                <div className="col-sm-12 col-lg-5 ">
                   <div className="row mb-16">
-                    <h1 style={{fontSize:"40px",fontWeight:"bold"}}>{item.title1}</h1>
+                    <h1 style={{ fontSize: "40px", fontWeight: "bold" }}>
+                      {item.title1}
+                    </h1>
                   </div>
-                  <div className="row text-center mb-12 sm:basis-full">
+                  <div className="row text-center mb-12 styleRow">
                     <div className="col-5">
                       <div className="">
-                        <h6  style={{marginBottom:"10px",color:"#7b7777",textAlign:"end",fontSize:"12px",fontWeight:"bold"}}>{item.date}</h6>
-                        <p  className="font-iransans" style={{textAlign:"justify"}}> {item.text}</p>
+                        <h6
+                          style={{
+                            marginBottom: "10px",
+                            color: "#7b7777",
+                            textAlign: "end",
+                            fontSize: "12px",
+                            fontWeight: "bold",
+                          }}
+                        >
+                          {item.date}
+                        </h6>
+                        <p
+                          className="font-iransans"
+                          style={{ textAlign: "justify" }}
+                        >
+                          {" "}
+                          {item.text}
+                        </p>
                       </div>
                     </div>
                     <div className="col-2">
-                        <div>
-                            <img src={item.src}/>
-                        </div>
+                      <div>
+                        <img src={item.src} />
+                      </div>
                     </div>
                   </div>
-                  <div className="row text-center mb-12">
+                  <div className="row text-center mb-12 styleRow">
                     <div className="col-5">
                       <div className="">
-                      <h6  style={{marginBottom:"10px",color:"#7b7777",textAlign:"end",fontSize:"12px",fontWeight:"bold"}}>{item.date}</h6>
-                      <p className="font-iransans" style={{textAlign:"justify"}}>{item.text}</p>
+                        <h6
+                          style={{
+                            marginBottom: "10px",
+                            color: "#7b7777",
+                            textAlign: "end",
+                            fontSize: "12px",
+                            fontWeight: "bold",
+                          }}
+                        >
+                          {item.date}
+                        </h6>
+                        <p
+                          className="font-iransans"
+                          style={{ textAlign: "justify" }}
+                        >
+                          {item.text}
+                        </p>
                       </div>
                     </div>
                     <div className="col-2">
-                    <div>
-                            <img src={item.src}/>
-                        </div>
+                      <div>
+                        <img src={item.src} />
+                      </div>
                     </div>
                   </div>
-                  <div className="row text-center mb-12">
+                  <div className="row text-center mb-12 styleRow">
                     <div className="col-5">
                       <div className="">
-                      <h6 style={{marginBottom:"10px",textAlign:"end",color:"#7b7777",fontSize:"12px",fontWeight:"bold"}}>{item.date}</h6>
-                      <p  className="font-iransans" style={{textAlign:"justify"}}>{item.text}</p>
+                        <h6
+                          style={{
+                            marginBottom: "10px",
+                            textAlign: "end",
+                            color: "#7b7777",
+                            fontSize: "12px",
+                            fontWeight: "bold",
+                          }}
+                        >
+                          {item.date}
+                        </h6>
+                        <p
+                          className="font-iransans"
+                          style={{ textAlign: "justify" }}
+                        >
+                          {item.text}
+                        </p>
                       </div>
                     </div>
                     <div className="col-2">
-                    <div>
-                            <img src={item.src}/>
-                        </div>
+                      <div>
+                        <img src={item.src} />
+                      </div>
                     </div>
                   </div>
                 </div>
