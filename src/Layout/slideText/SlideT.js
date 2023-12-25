@@ -4,7 +4,7 @@ import { Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/pagination";
 import "./SlideT.css";
-import photo1 from "./../../image/home3.avif";
+import photo1 from "./../../image/home3.png";
 import photo2 from "./../../image/home1.jpg";
 // import photo3 from './../../image/slide3.png'
 

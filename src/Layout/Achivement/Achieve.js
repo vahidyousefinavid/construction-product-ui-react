@@ -12,19 +12,88 @@ const Achieve = () => {
   return (
     <div className="Countainer font-iransans" style={{ marginBottom: "80px" }}>
       <div className="row h-full justify-center">
-        <div className="col-sm-12 col-lg-2 self-end">
-          <div className="relative">
-            <img
-              style={{ width: "140px", height: "10rem" }}
+        <div className="col-sm-12 col-lg-2 self-center">
+          <div className="styleRes">
+            <div
+              style={{
+                position: "absolute",
+                top: "0",
+                width: "100%",
+                height: "100%",
+                opacity: "0.8",
+                backgroundColor: "#f5cd00",
+              }}
+            ></div>
+           
+              <h1
+                style={{
+                  position: "absolute",
+                  top: "40%",
+                  right: "40%",
+                  fontSize: "60px",
+                  fontWeight: "bold",
+                  color: "#000",
+                }}
+              >
+                24
+              </h1>
+              <p
+                style={{
+                  position: "absolute",
+                  top: "65%",
+                  right: "2rem",
+                  color: "#000",
+                  fontWeight: "bold",
+                  fontSize: "18px",
+                  width: "80%",
+                }}
+              >
+                معتبرترین ژورنال‌ها ترجمه کنید
+              </p>
+       
+
+            {/* <img
+              style={{ width: "90%"}}
               className="styleImg"
               src={require("../../image/constroc.png")}
-            />
-            <h1
-              className="absolute  top-3/4 right-2/3"
-              style={{ fontSize: "40px", fontWeight: "bold", color: "#fff" }}
+            /> */}
+            {/* <div
+              className="absolute ResBg"
+              style={{
+                zIndex: "100",
+                backgroundColor: "#f5cd00",
+                top: "0",
+                width: "90%",
+                height:"100%",
+                opacity: "0.7",
+              }}
+            ></div> */}
+            {/* <h1
+              style={{
+                position: "absolute",
+                color: "#000",
+                fontSize: "5rem",
+                fontWeight: "bold",
+                top: "30%",
+                right: "25%",
+                zIndex: "101",
+              }}
             >
               24
-            </h1>
+            </h1> */}
+            {/* <p
+              style={{
+                position: "absolute",
+                top: "70%",
+                right: "10%",
+                width: "80%",
+                color: "#000",
+                fontWeight: "bold",
+                zIndex: "101",
+              }}
+            >
+              معتبرترین ژورنال‌ها ترجمه کنید
+            </p> */}
           </div>
         </div>
         <div className="col-sm-12 col-lg-5">
@@ -48,13 +117,22 @@ const Achieve = () => {
             </p>
           </div>
           <div className="row mt-12 font-iransans">
-            {jobs.map((item,index) => (
+            {jobs.map((item, index) => (
               <div key={index} className="col-3">
                 <div className="relative">
-                <h1 style={{fontSize:"40px",fontWeight:"bold",color:"#f5cd00"}}>{item.number}</h1>
-                <span style={{fontSize:"12px",fontWeight:"bold"}}>{item.title}</span>
+                  <h1
+                    style={{
+                      fontSize: "40px",
+                      fontWeight: "bold",
+                      color: "#f5cd00",
+                    }}
+                  >
+                    {item.number}
+                  </h1>
+                  <span style={{ fontSize: "12px", fontWeight: "bold" }}>
+                    {item.title}
+                  </span>
                 </div>
-              
               </div>
             ))}
           </div>

@@ -23,9 +23,9 @@ const Slider = () => {
     { id: 1, src: Slide3 },
     { id: 1, src: Slide4 },
     { id: 1, src: Slide5 },
-    { id: 1, src: Slide5 },
     { id: 1, src: Slide6 },
     { id: 1, src: Slide7 },
+    // { id: 1, src: Slide8 },
   ];
   return (
     <div className="Containerr">

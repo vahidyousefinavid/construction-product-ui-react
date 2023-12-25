@@ -2,7 +2,7 @@ import React from "react";
 import "./ListH.css";
 import Home1 from "../../image/home1.jpg";
 import Home2 from "../../image/home2.avif";
-import Home3 from "../../image/home3.avif";
+import Home3 from "../../image/home3.png";
 const Itemlist = [
   {
     id: 1,
@@ -26,7 +26,7 @@ const Itemlist = [
     type: "اگر می‌خواهید خواننده متن فارسی‌تان را کنار نگذارد و آن را تا انتها بخواهند، ",
     src: Home3,
     dir: "rtl",
-    width: "60%",
+    width: "80%",
     height: "20rem",
   },
 ];
