@@ -29,15 +29,15 @@ const Hlist = [
 ];
 const Ht = () => {
   return (
-    <div className="Container">
+    <div className="Container" style={{marginTop:"5rem"}}>
       <div className="row justify-around font-iransans">
         {Hlist.map((item, index) => (
           <div key={index} className="col-sm-12 col-lg-3 mb-4 mt-6">
             <div className="row styleRow">
               <div className="col-2">
                 <div>
-                  <img className="mb-2 border border-orange-600 p-1 rounded-full" src={item.src} />
-                  <img src={item.SVG}/>
+                  <img className="mb-2 styleTick  p-1 rounded-full" style={{borderRadius:"50px",border:"2px solid #f5cd00"}} src={item.src} />
+                  <img  src={item.SVG}/>
                 </div>
               </div>
               <div className="col-7">

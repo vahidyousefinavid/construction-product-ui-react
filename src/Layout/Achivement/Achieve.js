@@ -10,8 +10,8 @@ const jobs = [
 
 const Achieve = () => {
   return (
-    <div className="Countainer font-iransans" style={{ marginBottom: "80px" }}>
-      <div className="row h-full justify-center">
+    <div className="Countainer font-iransans">
+      <div className="row h-full justify-evenly"  style={{margin:"0 15px"}}>
         <div className="col-sm-12 col-lg-2 self-center">
           <div className="styleRes">
             <div
@@ -24,76 +24,32 @@ const Achieve = () => {
                 backgroundColor: "#f5cd00",
               }}
             ></div>
-           
-              <h1
-                style={{
-                  position: "absolute",
-                  top: "40%",
-                  right: "40%",
-                  fontSize: "60px",
-                  fontWeight: "bold",
-                  color: "#000",
-                }}
-              >
-                24
-              </h1>
-              <p
-                style={{
-                  position: "absolute",
-                  top: "65%",
-                  right: "2rem",
-                  color: "#000",
-                  fontWeight: "bold",
-                  fontSize: "18px",
-                  width: "80%",
-                }}
-              >
-                معتبرترین ژورنال‌ها ترجمه کنید
-              </p>
-       
 
-            {/* <img
-              style={{ width: "90%"}}
-              className="styleImg"
-              src={require("../../image/constroc.png")}
-            /> */}
-            {/* <div
-              className="absolute ResBg"
-              style={{
-                zIndex: "100",
-                backgroundColor: "#f5cd00",
-                top: "0",
-                width: "90%",
-                height:"100%",
-                opacity: "0.7",
-              }}
-            ></div> */}
-            {/* <h1
+            <h1
               style={{
                 position: "absolute",
-                color: "#000",
-                fontSize: "5rem",
+                top: "40%",
+                right: "40%",
+                fontSize: "60px",
                 fontWeight: "bold",
-                top: "30%",
-                right: "25%",
-                zIndex: "101",
+                color: "#000",
               }}
             >
               24
-            </h1> */}
-            {/* <p
+            </h1>
+            <p
               style={{
                 position: "absolute",
-                top: "70%",
-                right: "10%",
-                width: "80%",
+                top: "65%",
+                right: "2rem",
                 color: "#000",
                 fontWeight: "bold",
-                zIndex: "101",
+                fontSize: "18px",
+                width: "80%",
               }}
             >
               معتبرترین ژورنال‌ها ترجمه کنید
-            </p> */}
+            </p>
           </div>
         </div>
         <div className="col-sm-12 col-lg-5">
@@ -103,6 +59,7 @@ const Achieve = () => {
                 fontSize: "40px",
                 fontWeight: "bold",
                 marginBottom: "20px",
+                color: "#000",
               }}
             >
               دستاورد های ما
@@ -129,7 +86,13 @@ const Achieve = () => {
                   >
                     {item.number}
                   </h1>
-                  <span style={{ fontSize: "12px", fontWeight: "bold" }}>
+                  <span
+                    style={{
+                      fontSize: "12px",
+                      fontWeight: "bold",
+                      color: "#000",
+                    }}
+                  >
                     {item.title}
                   </span>
                 </div>

@@ -5,8 +5,12 @@
 
 .styleLine::before{
   content: "";
-  border-right: 2px solid red;
+  border-right: 4px solid #f5cd00;
   width: 50rem;
+  height: 12rem;
+  position: absolute;
+  top:12px;
+  right:0rem;
 }
 
 @media screen and (max-width: 1020px) {
@@ -19,6 +23,9 @@
   }
   .styleImag{
     width: 100% !important;
+  }
+  .styleLine::before{
+ display: none;
   }
  }
 

@@ -4,7 +4,11 @@ import Logo from "../../image/Logo.svg";
 import Button from "@mui/material/Button";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
-import Bottom from '../../image/bottom.png'
+import Bottom from "../../image/bottom.png";
+import Twitter from "../../image/icons8-twitter.svg";
+import Facebook from "../../image/icons8-facebook.svg";
+import G from "../../image/icons8-google-old.svg";
+import Insta from "../../image/icons8-insta.svg";
 const Footer = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -25,7 +29,7 @@ const Footer = () => {
         padding: "5rem",
       }}
     >
-      <div className="row">
+      <div className="row" style={{ position: "relative" }}>
         <div className="col-sm-12 col-lg-3 mb-10">
           <div style={{ borderTop: "1px solid #fff" }}>
             <h1
@@ -187,14 +191,22 @@ const Footer = () => {
                   backgroundColor: "#787373",
                   color: "#fff",
                   border: "none",
-                  borderRadius:"3px",
-                  padding:"8px 30px",
-                  position:"relative",
-                  fontFamily:'iransans'
+                  borderRadius: "3px",
+                  padding: "8px 30px",
+                  position: "relative",
+                  fontFamily: "iransans",
                 }}
-               
               >
-                <span style={{position:"absolute",right:"11rem",width:"1.5rem",color:"#fff"}}><img src={Bottom}/></span>
+                <span
+                  style={{
+                    position: "absolute",
+                    right: "11rem",
+                    width: "1.5rem",
+                    color: "#fff",
+                  }}
+                >
+                  <img src={Bottom} />
+                </span>
                 لیست شرکت های همکار
               </Button>
               <Menu
@@ -205,11 +217,58 @@ const Footer = () => {
                 MenuListProps={{
                   "aria-labelledby": "basic-button",
                 }}
+            
               >
                 <MenuItem onClick={handleClose}>Profile</MenuItem>
                 <MenuItem onClick={handleClose}>My account</MenuItem>
                 <MenuItem onClick={handleClose}>Logout</MenuItem>
               </Menu>
+            </div>
+            <div
+              className="row StyleObject"
+              style={{ position: "absolute", bottom: "-3rem",alignItems:"center" }}
+            >
+              <div className="col-6 col-lg-3" >
+                <div style={{display:"inline-block"}}>
+                  <img src={Twitter} />
+                </div>
+              </div>
+              <div className="col-6 col-lg-3">
+                <div
+                  style={{
+                    backgroundColor: "#fff",
+                    borderRadius: "50px",
+                    padding: "4px",
+                    display:"inline-block"
+                  }}
+                >
+                  <img src={Facebook} />
+                </div>
+              </div>
+
+              <div className="col-6 col-lg-3">
+                <div
+                  style={{
+                    backgroundColor: "#fff",
+                    borderRadius: "50px",
+                    padding: "4px",
+                    display:"inline-block"
+                  }}
+                >
+                  <img src={G} />
+                </div>
+              </div>
+
+              <div className="col-6 col-lg-3">
+                <div style={{
+                    backgroundColor: "#fff",
+                    borderRadius: "50px",
+                    padding: "4px",
+                    display:"inline-block"
+                  }}>
+                  <img src={Insta} />
+                </div>
+              </div>
             </div>
           </div>
         </div>

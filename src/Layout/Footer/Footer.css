@@ -9,9 +9,28 @@
 input{
     background-color :#5e5d63;
     border-radius: 2px;
-    padding: 5px 12px;
+    padding: 3px 12px;
 }
 
 input:focus{
     outline: none;
+    /* color:#b9b8be; */
 }
+
+
+@media screen and (max-width: 1020px) {
+    input{
+        background-color :#5e5d63;
+        border-radius: 2px;
+        padding: 3px 12px;
+        width: 100%;
+    }
+    
+
+    .StyleObject{
+            display: flex !important;
+           bottom: -3rem !important;
+    }
+ }
+
+

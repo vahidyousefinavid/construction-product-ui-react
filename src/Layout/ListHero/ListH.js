@@ -34,7 +34,7 @@ const Itemlist = [
 const ListH = () => {
   return (
     <>
-      <div className="Containers">
+      <div className="Containers" style={{marginTop:"5rem"}}>
         <div className="row StyleHeader items-center mb-10">
           <div className="col-6" style={{ textAlign: "start" }}>
             <div>
@@ -54,7 +54,7 @@ const ListH = () => {
                 className="row mb-10 justify-between sm: mx-auto"
                 style={{ direction: `${item.dir}` }}
               >
-                <div className="col-sm-6 col-lg-3">
+                <div className="col-sm-6 col-lg-3" style={{position:"relative"}}>
                   <div className="styleLine">
                     <h1
                       className="font-iransans"

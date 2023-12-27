@@ -13,11 +13,12 @@ const SliText = [
     id: 1,
     src: photo1,
     title1: "اخبار1",
-    title2: "500 مشتری",
+    title2: "+500 مشتری",
     text1:
       "کلید ارتباط موثر با جهان سخن گفتن به زبان جهانیان است. خدمات ترجمه تخصصی ما که در کلاس جهانی ارائه می‌شود به شما کمک می‌کند بازارهای جدیدی بیابید و خود را به خوبی به شرکای بین المللی معرفی کنید. همچنین، طیف گسترده مترجم‌های ما، شما را قادر می‌سازد تخصصی‌ترین متون آکادمیک را بر اساس استانداردهای پذیرش معتبرترین ژورنال‌ها ترجمه کنید.",
     date: "1.2.2023",
-    text2: "بر اساس استانداردهای پذیرش معتبرترین ژورنال‌ها ترجمه کنید",
+    text2: "براساس استانداردهای پذیرش معتبرترین ژورنال‌ها ترجمه کنید",
+    text3:"فحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند."
   },
   {
     id: 2,
@@ -28,11 +29,12 @@ const SliText = [
       "کلید ارتباط موثر با جهان سخن گفتن به زبان جهانیان است. خدمات ترجمه تخصصی ما که در کلاس جهانی ارائه می‌شود به شما کمک می‌کند بازارهای جدیدی بیابید و خود را به خوبی به شرکای بین المللی معرفی کنید. همچنین، طیف گسترده مترجم‌های ما، شما را قادر می‌سازد تخصصی‌ترین متون آکادمیک را بر اساس استانداردهای پذیرش معتبرترین ژورنال‌ها ترجمه کنید.",
     date: "3.5.2023",
     text2: "بر اساس استانداردهای پذیرش معتبرترین ژورنال‌ها ترجمه کنید",
+    text3:"فحه گرافیکی خود را صفحه‌آرایی می‌کنند تا مرحله طراحی و صفحه‌بندی را به پایان برند."
   },
 ];
 const SlideT = () => {
   return (
-    <div className="mb-12 Conntainer">
+    <div className="Conntainer" >
       <div>
         <Swiper
           spaceBetween={30}
@@ -44,10 +46,11 @@ const SlideT = () => {
         >
           {SliText.map((item, index) => (
             <SwiperSlide key={index}>
-              <div className="row mb-6 justify-evenly">
+              <div className="row mb-6 justify-evenly" style={{padding:"0 20px"}}>
                 <div className=" col-sm-12 col-lg-5">
                   <div>
                     <h1
+                    className="font-iransans"
                       style={{
                         fontSize: "40px",
                         fontWeight: "bold",
@@ -56,13 +59,14 @@ const SlideT = () => {
                     >
                       {item.title2}
                     </h1>
-                    <p style={{ textAlign: "justify", color: "#7b7777" }}>
+                    <p style={{color:"#000",fontSize:"16px",fontWeight:"bold",textAlign:"justify",marginBottom:"2rem"}}>{item.text3}</p>
+                    <p style={{ textAlign: "justify", color: "#7b7777",fontSize:"12px",fontWeight:"bold" }}>
                       {item.text1}
                     </p>
                   </div>
                 </div>
                 <div className="col-sm-12 col-lg-5 ">
-                  <div className="row mb-16">
+                  <div className="row mb-16 font-iransans">
                     <h1 style={{ fontSize: "40px", fontWeight: "bold" }}>
                       {item.title1}
                     </h1>
@@ -86,7 +90,7 @@ const SlideT = () => {
                         </h6>
                         <p
                           className="font-iransans"
-                          style={{ textAlign: "justify" }}
+                          style={{ textAlign: "justify",fontSize:"14px",fontWeight:"bold" }}
                         >
                           {item.text2}
                         </p>
@@ -117,7 +121,7 @@ const SlideT = () => {
                         </h6>
                         <p
                           className="font-iransans"
-                          style={{ textAlign: "justify" }}
+                          style={{ textAlign: "justify",fontSize:"14px",fontWeight:"bold" }}
                         >
                           {item.text2}
                         </p>
@@ -148,7 +152,7 @@ const SlideT = () => {
                         </h6>
                         <p
                           className="font-iransans"
-                          style={{ textAlign: "justify" }}
+                          style={{ textAlign: "justify" ,fontSize:"14px",fontWeight:"bold"}}
                         >
                           {item.text2}
                         </p>

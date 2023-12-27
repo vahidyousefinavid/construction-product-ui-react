@@ -1,6 +1,6 @@
 .Containerr{
     max-width: 1300px;
-    margin: 0 auto;
+    margin: 12rem auto;
     
 }
 .swiper {
@@ -26,3 +26,39 @@
     object-fit: cover;
   }
   
+  .listButt li{
+    display: inline-block;
+    margin: 0 12px;
+    /* font-size: 10px;
+    font-weight:bold; */
+    cursor: pointer;
+  }
+
+  .List{
+    font-family: 'iransans';
+    display: inline-block;
+    margin: 0 12px;
+    font-size: 12px;
+    font-weight:bold;
+    cursor: pointer;
+  }
+
+  .StleCover{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #f5cd00;
+    opacity: 0;
+  }
+  .StleCover:hover{
+    opacity: 0.8;
+    z-index: 99;
+  }
+
+
+  /* @media screen and (max-width: 1020px) {
+ 
+ 
+ }
+ */

@@ -1,33 +1,25 @@
 import React from "react";
-import NavbarMain from "./Layout/Navbar/NavbarMain";
-import ImageHero from "./Layout/ImageHero/ImageHero";
-import Ht from "./Layout/ListHesderText/Ht";
-import ListH from "./Layout/ListHero/ListH";
-import Slider from "./Layout/Caruosel/Slider";
-import Achieve from "./Layout/Achivement/Achieve";
-import SlideT from "./Layout/slideText/SlideT";
-import Footer from "./Layout/Footer/Footer";
-import { Route, Routes } from "react-router";
+import { Route,Routes, useRoutes } from 'react-router'
+import Container from "./container/Container";
+import SlodeProd from "./Layout/Caruosel/SlideProd/SlodeProd";
+import SlideProd2 from "./Layout/Caruosel/SlideProd/SlideProd2/SlideProd2";
+import SlodeProd3 from "./Layout/Caruosel/SlideProd3/SlodeProd3";
+import SlideProd4 from "./Layout/Caruosel/SlideProde4/SlideProd4";
+
+
 
 const App = () => {
-  return (
-    <>
-   
-        
-        <NavbarMain />
-        <ImageHero />
-        <Ht />
-        <ListH />
-        <Slider />
-        <Achieve />
-        <SlideT />
-        <Footer />
-        {/* <Routes>
-          <Route/>
-        </Routes> */}
-      
-    </>
-  );
+ 
+  const routs = useRoutes([
+    {path:'/' ,element:<Container/>},
+    {path:'/SlideProd' , element:<SlodeProd/>},
+    {path:'/SlideProd2' , element:<SlideProd2/>},
+    {path:'/SlodeProd3' , element:<SlodeProd3/>},
+    {path:'/SlideProd4' , element:<SlideProd4/>},
+  ])
+ 
+ return routs
+ 
 };
 
 export default App;
