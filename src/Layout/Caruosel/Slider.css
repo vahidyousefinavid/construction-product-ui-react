@@ -46,12 +46,14 @@
   .StleCover{
     position: absolute;
     top: 0;
-    height: 100%;
     width: 100%;
+    height: 100%;
     background-color: #f5cd00;
     opacity: 0;
+    transition: all 1s;
   }
   .StleCover:hover{
+   
     opacity: 0.8;
     z-index: 99;
   }

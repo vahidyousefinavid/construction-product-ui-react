@@ -30,7 +30,7 @@ const Hlist = [
 const Ht = () => {
   return (
     <div className="Container" style={{marginTop:"5rem"}}>
-      <div className="row justify-around font-iransans">
+      <div className="row justify-center font-iransans">
         {Hlist.map((item, index) => (
           <div key={index} className="col-sm-12 col-lg-3 mb-4 mt-6">
             <div className="row styleRow">

@@ -43,6 +43,7 @@ const SlideT = () => {
           }}
           modules={[Pagination]}
           className="mySwiper"
+         style={{paddingBottom:"40px"}}
         >
           {SliText.map((item, index) => (
             <SwiperSlide key={index}>
@@ -65,106 +66,7 @@ const SlideT = () => {
                     </p>
                   </div>
                 </div>
-                <div className="col-sm-12 col-lg-5 ">
-                  <div className="row mb-16 font-iransans">
-                    <h1 style={{ fontSize: "40px", fontWeight: "bold" }}>
-                      {item.title1}
-                    </h1>
-                  </div>
-                  <div
-                    className="row text-center mb-12 styleRow"
-                    style={{ alignItems: "center" }}
-                  >
-                    <div className="col-5">
-                      <div>
-                        <h6
-                          style={{
-                            marginBottom: "10px",
-                            color: "#7b7777",
-                            textAlign: "end",
-                            fontSize: "12px",
-                            fontWeight: "bold",
-                          }}
-                        >
-                          {item.date}
-                        </h6>
-                        <p
-                          className="font-iransans"
-                          style={{ textAlign: "justify",fontSize:"14px",fontWeight:"bold" }}
-                        >
-                          {item.text2}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-2" style={{ width: "25%" }}>
-                      <div>
-                        <img src={item.src} />
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="row text-center mb-12 styleRow"
-                    style={{ alignItems: "center" }}
-                  >
-                    <div className="col-5">
-                      <div className="">
-                        <h6
-                          style={{
-                            marginBottom: "10px",
-                            color: "#7b7777",
-                            textAlign: "end",
-                            fontSize: "12px",
-                            fontWeight: "bold",
-                          }}
-                        >
-                          {item.date}
-                        </h6>
-                        <p
-                          className="font-iransans"
-                          style={{ textAlign: "justify",fontSize:"14px",fontWeight:"bold" }}
-                        >
-                          {item.text2}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-2" style={{ width: "25%" }}>
-                      <div>
-                        <img src={item.src} />
-                      </div>
-                    </div>
-                  </div>
-                  <div
-                    className="row text-center mb-12 styleRow"
-                    style={{ alignItems: "center" }}
-                  >
-                    <div className="col-5">
-                      <div className="">
-                        <h6
-                          style={{
-                            marginBottom: "10px",
-                            textAlign: "end",
-                            color: "#7b7777",
-                            fontSize: "12px",
-                            fontWeight: "bold",
-                          }}
-                        >
-                          {item.date}
-                        </h6>
-                        <p
-                          className="font-iransans"
-                          style={{ textAlign: "justify" ,fontSize:"14px",fontWeight:"bold"}}
-                        >
-                          {item.text2}
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-2" style={{ width: "25%" }}>
-                      <div>
-                        <img src={item.src} />
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                
               </div>
             </SwiperSlide>
           ))}
