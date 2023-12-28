@@ -1,9 +1,9 @@
 .StyleBg{
-    background-image: url('../../image/3.webp');
+    background-image: url('../../image/imageHero.webp');
     background-repeat: no-repeat;
     background-size: cover;
     max-width:1300px;
-    height: 45rem;
+    height: 36rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -12,7 +12,6 @@
 
 
 @media screen and (max-width: 1020px) {
-
    .StyleBg{
     display: flex;
     width: 100%;
@@ -20,13 +19,6 @@
    .styleText{
         text-align: center;
         margin: 0 auto;
-      
-   }
-   .styleText h1{
-    color: #000;
-   }
-   .styleText p{
-    color: #000;
    }
  .styleLogo{
   margin-right: 13px;

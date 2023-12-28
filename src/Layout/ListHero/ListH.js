@@ -1,8 +1,8 @@
 import React from "react";
 import "./ListH.css";
-import Home1 from "../../image/2.jpg";
+import Home1 from "../../image/home1.jpg";
 import Home2 from "../../image/home2.avif";
-import Home3 from "../../image/1.jpg";
+import Home3 from "../../image/home3.png";
 const Itemlist = [
   {
     id: 1,
@@ -34,16 +34,16 @@ const Itemlist = [
 const ListH = () => {
   return (
     <>
-      <div className="Containers" style={{ marginTop: "5rem" }}>
-        <div className="row StyleHeader items-center mb-10" >
-          <div className="col-6"  style={{ textAlign: "start" }}>
+      <div className="Containers" style={{marginTop:"5rem"}}>
+        <div className="row StyleHeader items-center mb-10">
+          <div className="col-6" style={{ textAlign: "start" }}>
             <div>
-              <h1 className="font-iransans font-bold text-3xl">خدمات ما</h1>
+              <img src={require("../../image/icons8-target-50.png")} />
             </div>
           </div>
-          <div className="col-6" style={{textAlign:"-webkit-left"}}>
+          <div className="col-6" style={{ textAlign: "end" }}>
             <div>
-              <img  src={require("../../image/icons8-target-50.png")} />
+              <h1 className="font-iransans font-bold text-3xl">خدمات ما</h1>
             </div>
           </div>
         </div>
@@ -51,13 +51,10 @@ const ListH = () => {
           {Itemlist.map((item, index) => (
             <div key={index} className="col-sm-12">
               <div
-                className="row mb-28 justify-between sm: mx-auto"
+                className="row mb-10 justify-between sm: mx-auto"
                 style={{ direction: `${item.dir}` }}
               >
-                <div
-                  className="col-sm-6 col-lg-3"
-                  style={{ position: "relative" }}
-                >
+                <div className="col-sm-6 col-lg-3" style={{position:"relative"}}>
                   <div className="styleLine">
                     <h1
                       className="font-iransans"

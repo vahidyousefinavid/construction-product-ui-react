@@ -49,10 +49,10 @@ const Slider = () => {
         <div className="col-sm-12 col-lg-6 text-center">
           <ul className="listButt">
             {PageProd.map((item, index) => (
-              <li className="List" key={index}>
-                {/* <Link className="List"  to={item.Page}> */}
-                {item.title}
-                {/* </Link> */}
+              <li key={index}>
+                <Link className="List"  to={item.Page}>
+                  {item.title}
+                </Link>
               </li>
             ))}
           </ul>
@@ -70,7 +70,7 @@ const Slider = () => {
       </div>
       <div>
         <Swiper
-          style={{ marginBottom: "50px", paddingBottom: "50px" }}
+          style={{ marginBottom: "50px", paddingBottom: "30px" }}
           slidesPerView={1}
           spaceBetween={10}
           pagination={{
@@ -111,7 +111,7 @@ const Slider = () => {
                   className="font-iransans"
                   style={{
                     position: "absolute",
-                    top: hover === item.id ? "30%" : "15%",
+                    top: hover === item.id ? "30%":"15%",
                     textAlign: "justify",
                     fontSize: "15px",
                     fontWeight: "bold",
@@ -139,12 +139,7 @@ const Slider = () => {
               </h4>
               <span
                 className="font-iransans absolute bottom-3 left-5"
-                style={{
-                  color: "#000",
-                  fontSize: "15px",
-                  fontWeight: "bold",
-                  zIndex: "100",
-                }}
+                style={{ color: "#000", fontSize: "15px",fontWeight:"bold", zIndex: "100" }}
               >
                 دیدن پروژه
                 <span

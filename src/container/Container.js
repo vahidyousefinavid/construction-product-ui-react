@@ -7,10 +7,10 @@ import Achieve from '../Layout/Achivement/Achieve'
 import SlideT from '../Layout/slideText/SlideT'
 import Footer from '../Layout/Footer/Footer'
 import Ht from '../../src/Layout/ListHesderText/Ht'
-import './Container.css'
+
 const Container = () => {
   return (
-    <div className='StyleContauner'>
+    <div>
       <NavbarMain/>
       <ImageHero/>
       <Ht/>
