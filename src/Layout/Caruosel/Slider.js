@@ -17,10 +17,10 @@ import SlodeProd from "./SlideProd/SlodeProd";
 
 const Slider = () => {
   const Slides = [
-    { id: 1, src: Slide1 },
+    { id: 1, src: Slide4 },
     { id: 2, src: Slide2 },
     { id: 3, src: Slide3 },
-    { id: 4, src: Slide4 },
+    { id: 4, src: Slide1 },
     { id: 5, src: Slide5 },
     { id: 6, src: Slide6 },
     { id: 7, src: Slide7 },
@@ -46,7 +46,7 @@ const Slider = () => {
         className="row justify-evenly"
         style={{ marginBottom: "3rem", alignItems: "center" }}
       >
-        <div className="col-sm-12 col-lg-6 text-center">
+        <div className="col-sm-12 order-2 col-lg-6  text-center">
           <ul className="listButt">
             {PageProd.map((item, index) => (
               <li className="List" key={index}>
@@ -57,7 +57,7 @@ const Slider = () => {
             ))}
           </ul>
         </div>
-        <div className="col-sm-12 col-lg-3 text-center">
+        <div className="col-sm-12 order-1 col-lg-3  text-center">
           <div>
             <h1
               className="font-iransans"

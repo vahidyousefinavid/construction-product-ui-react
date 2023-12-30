@@ -5,7 +5,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "./SlideT.css";
 import photo1 from "./../../image/home3.png";
-import photo2 from "./../../image/home2.avif";
+import photo2 from "./../../image/home2.jpg";
 // import photo3 from './../../image/slide3.png'
 
 const SliText = [
@@ -55,7 +55,7 @@ const SlideT = () => {
                       style={{
                         fontSize: "40px",
                         fontWeight: "bold",
-                        marginBottom: "4rem",
+                        marginBottom: "2rem",
                       }}
                     >
                       {item.title2}

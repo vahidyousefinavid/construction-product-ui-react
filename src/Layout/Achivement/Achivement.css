@@ -17,15 +17,25 @@
 
 @media screen and (max-width: 1020px) {
   
-    
+ 
     .styleImg{
         width: 50% !important;
         margin: 0 auto;
     }
      .styleRes{
       position: relative;
-      margin:2px 11px ;
+      margin:0px auto ;
+      margin-bottom: 20px;
       text-align: center;
+    }
+
+    .StyleParag{
+        text-align: center;
+        
+    }
+    .StyleParag p{
+        text-align: justify;
+        font-size: 14px;
     }
 
  }

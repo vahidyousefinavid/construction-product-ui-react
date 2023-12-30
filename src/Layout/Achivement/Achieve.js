@@ -53,7 +53,7 @@ const Achieve = () => {
           </div>
         </div>
         <div className="col-sm-12 col-lg-5">
-          <div>
+          <div className="StyleParag">
             <h1
               style={{
                 fontSize: "40px",
@@ -64,7 +64,7 @@ const Achieve = () => {
             >
               دستاورد های ما
             </h1>
-            <p style={{ color: "#7b7777", fontWeight: "bold" }}>
+            <p  style={{ color: "#7b7777", fontWeight: "bold" }}>
               کلید ارتباط موثر با جهان سخن گفتن به زبان جهانیان است. خدمات ترجمه
               تخصصی ما که در کلاس جهانی ارائه می‌شود به شما کمک می‌کند بازارهای
               جدیدی بیابید و خود را به خوبی به شرکای بین المللی معرفی کنید.

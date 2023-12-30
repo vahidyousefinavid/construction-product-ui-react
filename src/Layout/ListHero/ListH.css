@@ -17,6 +17,7 @@
   .StyleHeader{
     display: flex;
     margin: 0 auto;
+    margin-bottom: 3.5rem;
   }
   .styleDivImg{
     width: 100%;

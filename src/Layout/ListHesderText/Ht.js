@@ -37,7 +37,7 @@ const Ht = () => {
               <div className="col-2">
                 <div>
                   <img className="mb-2 styleTick  p-1 rounded-full" style={{borderRadius:"50px",border:"2px solid #f5cd00"}} src={item.src} />
-                  <img  src={item.SVG}/>
+                  <img className="StyleSvg"  src={item.SVG}/>
                 </div>
               </div>
               <div className="col-7">

@@ -1,7 +1,6 @@
 .Container{
     max-width: 1200px;
     margin: 0 auto;
-    /* color: #7b7777; */
 }
 .styleTick{
     width: 2rem !important;
@@ -11,13 +10,15 @@
 
     .styleRow{
         display: flex;
-        justify-content: space-evenly;
+        justify-content:center;
         align-items: center;
     }
 
     .styleTick{
         width: 2rem !important;
     }
-    
+    .StyleSvg{
+        display: none;
+    }
  
  }

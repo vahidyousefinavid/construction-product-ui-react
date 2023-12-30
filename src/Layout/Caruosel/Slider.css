@@ -1,7 +1,6 @@
 .Containerr{
     max-width: 1300px;
     margin: 5rem auto;
-    
 }
 .swiper {
     width: 100%;
@@ -59,8 +58,16 @@
   }
 
 
-  /* @media screen and (max-width: 1020px) {
+  @media screen and (max-width: 1020px) {
+    .Containerr{
+      max-width: 1300px;
+      margin: 5rem auto;
+      margin-top: 8rem;
+  }
  
+    .listButt{
+      margin-top: 2.5rem;
+    }
  
  }
- */
+

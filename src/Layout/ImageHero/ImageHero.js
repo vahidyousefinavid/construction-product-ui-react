@@ -1,8 +1,8 @@
 import React from "react";
 import Twitter from "../../image/icons8-twitter.svg";
 import Facebook from "./../../image/face.svg";
-import G from "../../image/g.svg";
-import Insta from "../../image/insta.svg";
+import G from "../../image/icons8-google-old (1).svg";
+import Insta from "../../image/icons8-insta (1).svg";
 import "./ImageHero.css";
 const ImageHero = () => {
   return (
@@ -20,7 +20,7 @@ const ImageHero = () => {
           </button>
           <div
             className="row StyleFlow"
-            style={{ position: "absolute", bottom: "12px", right: "0.5rem" }}
+            style={{ position: "absolute", bottom: "0px", right: "0.5rem" }}
           >
             <div className=" mb-3 styleLogo col-lg-3">
               <img
@@ -68,8 +68,8 @@ const ImageHero = () => {
             </div>
           </div>
           <div className=" font-iransans styleEmPh" style={{position:"absolute",left:"15rem",bottom:"2rem"}}>
-            <span className="text-slate-50"  style={{fontSize:"12px",fontWeight:"bold",marginRight:"12px"}}>Email:info@aithome.com</span>
-            <span style={{color:"#fff",fontWeight:"bold",fontSize:"12px"}}>phon : <b style={{color:"#f5cd00"}}>09124579985</b></span>
+            <span className="text-slate-50 font-iransans"  style={{fontSize:"12px",fontWeight:"bold",marginLeft:"12px"}}>ایمیل:info@aithome.com</span>
+            <span className="font-iransans" style={{color:"#fff",fontWeight:"bold",fontSize:"12px"}}>تلفن : <b style={{color:"#f5cd00"}}>09124579985</b></span>
           </div>
         </div>
       </div>

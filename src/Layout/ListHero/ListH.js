@@ -1,7 +1,7 @@
 import React from "react";
 import "./ListH.css";
 import Home1 from "../../image/2.jpg";
-import Home2 from "../../image/home2.avif";
+import Home2 from "../../image/home2.jpg";
 import Home3 from "../../image/1.jpg";
 const Itemlist = [
   {
@@ -35,10 +35,10 @@ const ListH = () => {
   return (
     <>
       <div className="Containers" style={{ marginTop: "5rem" }}>
-        <div className="row StyleHeader items-center mb-10" >
+        <div className="row StyleHeader items-center mb-12" >
           <div className="col-6"  style={{ textAlign: "start" }}>
             <div>
-              <h1 className="font-iransans font-bold text-3xl">خدمات ما</h1>
+              <h1 className="font-iransans font-bold text-4xl">خدمات ما</h1>
             </div>
           </div>
           <div className="col-6" style={{textAlign:"-webkit-left"}}>

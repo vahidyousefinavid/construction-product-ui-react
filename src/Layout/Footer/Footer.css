@@ -29,7 +29,8 @@ input:focus{
 
     .StyleObject{
             display: flex !important;
-           bottom: -3rem !important;
+          right: 3rem;
+          left: 3rem;
     }
  }
 

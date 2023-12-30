@@ -1,9 +1,9 @@
 import React from "react";
 import "./Footer.css";
 import Logo from "../../image/Logo.svg";
-import Insta from '../../image/icons8-insta.svg'
-import Face from '../../image/icons8-facebook.svg'
-import G from '../../image/icons8-google-old.svg'
+import Insta from '../../image/image new/footer/icons8-insta (1).svg'
+import Face from '../../image/image new/footer/icons8-facebook (2).svg'
+import G from '../../image/image new/footer/icons8-google-old (1).svg'
 import Twitter from '../../image/icons8-twitter.svg'
 // import InstagramIcon from '@mui/icons-material/Instagram';
 const Footer = () => {
@@ -182,12 +182,12 @@ const Footer = () => {
               className="row StyleObject"
               style={{ position: "absolute", bottom: "-3rem",left:"3rem" }}
             >
-              <div className="col-6 col-lg-3" >
-                <div style={{display:"inline-block"}}>
+              <div className="col-3 col-lg-3" >
+                <div>
                   <img src={Twitter} />
                 </div>
               </div>
-              <div className="col-6 col-lg-3">
+              <div className="col-3 col-lg-3">
                 <div
                 
                 >
@@ -195,7 +195,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="col-6 col-lg-3">
+              <div className="col-3 col-lg-3">
                 <div
                 
                 >
@@ -203,7 +203,7 @@ const Footer = () => {
                 </div>
               </div>
 
-              <div className="col-6 col-lg-3">
+              <div className="col-3 col-lg-3">
                 <div 
 
                   >
