@@ -30,3 +30,15 @@
  font-weight: bold;
 }
 
+@media screen and (max-width: 1020px) {
+    .StyleNav{
+        position: relative;
+        width: 100%;
+        background-color: #fff;
+        z-index: 101;
+    }
+    .footer{
+        margin-bottom: 0;
+    }
+    
+   }

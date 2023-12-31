@@ -54,11 +54,11 @@ const About = () => {
           </p>
         </div>
         <div className="Contaner">
-       <Slider/>
+          <Slider />
         </div>
-        <div>
-          <Footer />
-        </div>
+      </div>
+      <div className="Contaner footer" >
+        <Footer />
       </div>
     </>
   );
