@@ -3,12 +3,30 @@
     margin: 0 auto;
 }
 
-.StyleRow{
-        justify-content: center;
+.StyleNav{
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    z-index: 101;
 }
 
-.StyleText{
-    margin-top: 3rem;
-    width: 900px;
-    text-align: justify;
+.ImageHero{
+    background-image: url('../../image/image new/New folder/compressor/2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+   z-index: 100;
+    /* margin:0 auto; */
+    position: relative;
 }
+
+.ImageHero h1{
+ position: absolute;
+ top: 50%;
+ left: 44%;  
+ color: #fff;
+ font-size: 20px;
+ font-weight: bold;
+}
+
