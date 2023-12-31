@@ -17,7 +17,9 @@ const NavbarMain = () => {
             className="justify-around sm:z-0"
           >
             <div className=" styleLang col-lg-1 text-center">
-              <span className="font-iransans" style={{fontWeight:"bold"}}>محصولات</span>
+              <span className="font-iransans" style={{ fontWeight: "bold" }}>
+                محصولات
+              </span>
             </div>
             <div className="col-lg-8">
               <Nav className="me-auto justify-center styleNAv">
@@ -31,35 +33,35 @@ const NavbarMain = () => {
                   href="#link"
                   style={{ color: "#000", fontWeight: "bold" }}
                 >
-                  دیده شوید
+                  سیمان
+                </Nav.Link>
+                <Nav.Link
+                  href="#link"
+                  style={{ color: "#000", fontWeight: "bold" }}
+                >
+                  هبلکس
+                </Nav.Link>
+                <Nav.Link
+                  href="#link"
+                  style={{ color: "#000", fontWeight: "bold" }}
+                >
+                  لیست محصولات
                 </Nav.Link>
 
                 <Nav.Link
                   href="#link"
-                 
                   style={{ color: "#000", fontWeight: "bold" }}
                 >
-                  <Link to="/About">
-                  درباره ما
-                  </Link>
-                 
+                  ارتباط با ما
                 </Nav.Link>
-                {/* <Nav.Link
-                  href="#link"
-                  style={{ color: "#000", fontWeight: "bold" }}
-                ></Nav.Link> */}
+
                 <Nav.Link
                   href="#link"
                   style={{ color: "#000", fontWeight: "bold" }}
                 >
-                  پنل فروشکاه
+                  <Link to="/About">درباره ما</Link>
                 </Nav.Link>
-                <Nav.Link
-                  href="#link"
-                  style={{ color: "#000", fontWeight: "bold" }}
-                >
-                  نقشه راه
-                </Nav.Link>
+           
               </Nav>
             </div>
             <div className="col-lg-1">

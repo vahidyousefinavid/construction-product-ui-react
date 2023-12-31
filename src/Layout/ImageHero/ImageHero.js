@@ -10,11 +10,11 @@ const ImageHero = () => {
       <div className="container StyleBg">
         <div className=" col-lg-12 styleText font-iransans">
           <h1 className="text-slate-100 font-bold text-3xl mb-3">
-            فروشگاه آنلاین مصالح ساختمانی
+            بازرگانی سیمان و مصالح ساختمانی مدرن ساخت
           </h1>
-          <p className="text-slate-100 text-2xl font-bold mb-3">
+          {/* <p className="text-slate-100 text-2xl font-bold mb-3">
             همین حالا آگهی خود را ثبت کنید
-          </p>
+          </p> */}
           <button className="bg-yellow-400 py-2 px-4 rounded-lg">
             کلیک کنید
           </button>
@@ -67,9 +67,26 @@ const ImageHero = () => {
               />
             </div>
           </div>
-          <div className=" font-iransans styleEmPh" style={{position:"absolute",left:"15rem",bottom:"2rem"}}>
-            <span className="text-slate-50 font-iransans"  style={{fontSize:"12px",fontWeight:"bold",marginLeft:"12px"}}>ایمیل:info@aithome.com</span>
-            <span className="font-iransans" style={{color:"#fff",fontWeight:"bold",fontSize:"12px"}}>تلفن : <b style={{color:"#f5cd00"}}>09124579985</b></span>
+          <div
+            className=" font-iransans styleEmPh"
+            style={{ position: "absolute", left: "15rem", bottom: "2rem" }}
+          >
+            <span
+              className="text-slate-50 font-iransans"
+              style={{
+                fontSize: "12px",
+                fontWeight: "bold",
+                marginLeft: "12px",
+              }}
+            >
+              ایمیل:info@aithome.com
+            </span>
+            <span
+              className="font-iransans"
+              style={{ color: "#fff", fontWeight: "bold", fontSize: "12px" }}
+            >
+              تلفن : <b style={{ color: "#f5cd00" }}>09124579985</b>
+            </span>
           </div>
         </div>
       </div>

@@ -1,8 +1,9 @@
-import React from "react";
+import React,{useState} from "react";
 import "./About.css";
 import NavbarMain from "../Navbar/NavbarMain";
 import Footer from "../Footer/Footer";
 import Slider from "../Caruosel/Slider";
+// import './../../../src/Layout/Caruosel/Slider.css'
 const About = () => {
   return (
     <>
@@ -53,7 +54,7 @@ const About = () => {
             دریایی مورد استفاده قرار داد.
           </p>
         </div>
-        <div className="Contaner">
+        <div >
           <Slider />
         </div>
       </div>
