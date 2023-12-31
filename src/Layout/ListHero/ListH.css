@@ -30,6 +30,7 @@
   }
   .styleMargin{
     margin-bottom: 2rem;
+    direction: rtl !important;
   }
  }
 
