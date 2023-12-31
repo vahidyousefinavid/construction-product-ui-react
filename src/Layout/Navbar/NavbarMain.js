@@ -16,8 +16,8 @@ const NavbarMain = () => {
             id="basic-navbar-nav"
             className="justify-around sm:z-0"
           >
-            <div className=" styleLang col-lg-2 text-center">
-              <span className="font-iransans" style={{fontWeight:"bold"}}>محصولات ارسال شده</span>
+            <div className=" styleLang col-lg-1 text-center">
+              <span className="font-iransans" style={{fontWeight:"bold"}}>محصولات</span>
             </div>
             <div className="col-lg-8">
               <Nav className="me-auto justify-center styleNAv">

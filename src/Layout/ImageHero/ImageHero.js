@@ -20,7 +20,7 @@ const ImageHero = () => {
           </button>
           <div
             className="row StyleFlow"
-            style={{ position: "absolute", bottom: "0px", right: "0.5rem" }}
+            style={{ position: "absolute", bottom: "14px", right: "1.5rem" }}
           >
             <div className=" mb-3 styleLogo col-lg-3">
               <img

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Slide1 from "../../image/image new/compressor/slide1.webp";
-import Slide2 from "../../image/image new/compressor/slide2.jpg";
 import Slide3 from "../../image/image new/compressor/slide3.jpg";
 import Slide4 from "../../image/image new/compressor/slide4.jpg";
 import Slide5 from "../../image/image new/compressor/slide5.jpg";
@@ -18,12 +17,12 @@ import SlodeProd from "./SlideProd/SlodeProd";
 const Slider = () => {
   const Slides = [
     { id: 1, src: Slide4 },
-    { id: 2, src: Slide2 },
-    { id: 3, src: Slide3 },
-    { id: 4, src: Slide1 },
+    { id: 2, src: Slide7 },
+    { id: 3, src: Slide1 },
+    { id: 4, src: Slide3 },
     { id: 5, src: Slide5 },
     { id: 6, src: Slide6 },
-    { id: 7, src: Slide7 },
+    
   ];
 
   const PageProd = [
