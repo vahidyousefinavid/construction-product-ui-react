@@ -4,7 +4,7 @@ import Slide0 from "../../image/image new/compressor/slide1.webp";
 import Slide1 from "../../image/photo slider/slider1.jpg";
 import Slide2 from "../../image/photo slider/slider2.jpg";
 import Slide3 from "../../image/photo slider/slider3.jpg";
-import Slide4 from "../../image/photo slider/slider4.png";
+import Slide4 from "../../image/photo slider/slider4.jpg";
 import Slide5 from "../../image/photo slider/slider5.jpg";
 import Slide6 from '../../image/photo slider/slider6.jpg';
 import Slide7 from '../../image/photo slider/slider7.jpg'

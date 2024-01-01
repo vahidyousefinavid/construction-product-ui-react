@@ -67,7 +67,7 @@ const ListH = () => {
                     </h1>
                     <p
                       className="font-iransans"
-                      style={{ color: "#7b7777", fontWeight: "bold" }}
+                      style={{ color: "#7b7777", fontWeight: "bold",fontSize:"16px" }}
                     >
                       {item.type}
                     </p>

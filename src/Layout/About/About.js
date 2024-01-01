@@ -1,39 +1,21 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import "./About.css";
 import NavbarMain from "../Navbar/NavbarMain";
+import SliderAbout from "./SliderAbout/SliderAbout";
 import Footer from "../Footer/Footer";
-import Slider from "../Caruosel/Slider";
-// import './../../../src/Layout/Caruosel/Slider.css'
+
 const About = () => {
   return (
-    <>
-      <div className="StyleNav">
-        <NavbarMain />
-      </div>
-      <div className="Contaner">
+    <div className="bodyAbout">
+      <div className="Contaner StlyeAll">
+        <div className="StyleNav">
+          <NavbarMain />
+        </div>
         <div className="ImageHero">
-          <div
-            style={{
-              position: "absolute",
-              top: "0",
-              backgroundColor: "#3737e0",
-              width: "100%",
-              height: "100%",
-              opacity: "0.7",
-            }}
-          >
-            <h1 className="font-iransans">تاریچه صنعت سیمان</h1>
-          </div>
+          <h1 className="font-iransans">تاریچه صنعت سیمان</h1>
         </div>
         <div className="mt-5">
-          <p
-            className="font-iransans"
-            style={{
-              fontWeight: "bold",
-              fontSize: "16px",
-              textAlign: "justify",
-            }}
-          >
+          <p>
             سیمان یا سمنت واژه‌ایست که از لغت سمنتوم رومی گرفته شده و قدمت آن به
             پیش از میلاد می‌رسد. مصرف آن در ساختمان پانتئون شهر رم واقع در
             ایتالیا که مربوط به ۲۷ سال قبل از میلاد است، دیده شده‌است. در
@@ -54,14 +36,13 @@ const About = () => {
             دریایی مورد استفاده قرار داد.
           </p>
         </div>
-        <div >
-          <Slider />
+
+        <div>
+          <SliderAbout />
         </div>
-      </div>
-      <div className="Contaner footer" >
         <Footer />
       </div>
-    </>
+    </div>
   );
 };
 
