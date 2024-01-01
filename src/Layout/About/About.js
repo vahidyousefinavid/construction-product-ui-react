@@ -6,8 +6,8 @@ import Footer from "../Footer/Footer";
 
 const About = () => {
   return (
-    <div className="bodyAbout">
-      <div className="Contaner StlyeAll">
+    <div>
+      <div className=" StlyeAll">
         <div className="StyleNav">
           <NavbarMain />
         </div>
@@ -37,7 +37,7 @@ const About = () => {
           </p>
         </div>
 
-        <div>
+        <div className="Contaner">
           <SliderAbout />
         </div>
         <Footer />

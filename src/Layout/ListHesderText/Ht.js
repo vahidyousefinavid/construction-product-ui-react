@@ -48,9 +48,9 @@ const Ht = () => {
                   <img className="StyleSvg"  src={item.SVG}/>
                 </div>
               </div>
-              <div className="col-8">
-                <div>
-                  <h1 className="text-xl font-extrabold" style={{color:"#000"}}>{item.title}</h1>
+              <div className="col-8 styleParag" style={{width:"80%"}}>
+                <div> 
+                  <h1 className="text-xl font-extrabold" style={{color:"#000",marginBottom:"12px",fontSize:"16px"}}>{item.title}</h1>
                   <p style={{color:"#7b7777",textAlign:"justify",fontWeight:"bold",fontSize:"12px"}}>{item.type}</p>
                 </div>
               </div>

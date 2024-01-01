@@ -51,6 +51,9 @@ const Slider = () => {
   const handleMouseLeave = (event) => {
     setHover(event);
   };
+
+
+  
   return (
     <div className="Containerr">
       <div
@@ -81,8 +84,8 @@ const Slider = () => {
       </div>
       <div>
         <Swiper
-          style={{ marginBottom: "50px", paddingBottom: "50px" }}
-          slidesPerView={1}
+          style={{ marginBottom: "50px", paddingBottom: "50px",width:"100%" }}
+          slidesPerView= {1}
           spaceBetween={10}
           pagination={{
             clickable: true,
@@ -107,6 +110,7 @@ const Slider = () => {
           }}
           modules={[Pagination]}
           className="mySwiper"
+          
         >
           {Slides.map((item, index) => (
             <SwiperSlide key={index} style={{ position: "relative" }}>

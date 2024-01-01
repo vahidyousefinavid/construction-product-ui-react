@@ -20,5 +20,7 @@
     .StyleSvg{
         display: none;
     }
- 
+ .styleParag{
+    width: 70% !important;
+ }
  }

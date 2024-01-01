@@ -1,6 +1,6 @@
 .swiper {
-    width: 50%;
-    height: 50%;
+    width: 100% !important;
+    height: 100% !important;
   }
   
   .swiper-slide {
