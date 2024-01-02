@@ -71,21 +71,21 @@ const ImageHero = () => {
             className=" font-iransans styleEmPh"
             style={{ position: "absolute", left: "15rem", bottom: "2rem" }}
           >
-            <span
+            {/* <span
               className="text-slate-50 font-iransans"
               style={{
-                fontSize: "12px",
+                fontSize: "18px",
                 fontWeight: "bold",
                 marginLeft: "12px",
               }}
             >
               ایمیل:info@aithome.com
-            </span>
+            </span> */}
             <span
               className="font-iransans"
-              style={{ color: "#fff", fontWeight: "bold", fontSize: "12px" }}
+              style={{ color: "#000", fontWeight: "bold", fontSize: "18px" }}
             >
-              تلفن : <b style={{ color: "#f5cd00" }}>09124579985</b>
+              تلفن : <b className="font-iransans" style={{ color: "#000" }}>09188808587</b>
             </span>
           </div>
         </div>

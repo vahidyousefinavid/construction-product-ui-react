@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import Slide0 from "../../image/image new/compressor/slide1.webp";
+import Slide0 from "../../image/photo slider/slider0.jpg";
 import Slide1 from "../../image/photo slider/slider1.jpg";
 import Slide2 from "../../image/photo slider/slider2.jpg";
 import Slide3 from "../../image/photo slider/slider3.jpg";
@@ -50,7 +50,9 @@ const Slider = () => {
 
   const handleMouseLeave = (event) => {
     setHover(event);
+   
   };
+
 
 
   

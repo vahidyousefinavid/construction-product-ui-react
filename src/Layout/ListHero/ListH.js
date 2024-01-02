@@ -1,20 +1,20 @@
 import React from "react";
 import "./ListH.css";
-import Home1 from "../../image/2.jpg";
-import Home2 from "../../image/home2.jpg";
-import Home3 from "../../image/1.jpg";
+import Home1 from "../../image/photo slider/ceman.jpg";
+import Home2 from "../../image/photo slider/heblecs.jpg";
+import Home3 from "../../image/photo slider/slider2.jpg";
 const Itemlist = [
   {
     id: 1,
-    title: "خلاقانه",
+    title: "سیمان",
     type: "اگر می‌خواهید خواننده متن فارسی‌تان را کنار نگذارد و آن را تا انتها بخواهند ",
     src: Home1,
     dir: "rtl",
-    width: "80%",
+    width: "40%",
   },
   {
     id: 2,
-    title: "ساخت سریع",
+    title: "هبلکس",
     type: "اگر می‌خواهید خواننده متن فارسی‌تان را کنار نگذارد و آن را تا انتها بخواهند، ",
     src: Home2,
     dir: "ltr",
@@ -22,7 +22,7 @@ const Itemlist = [
   },
   {
     id: 3,
-    title: "صرفه جویی در پول",
+    title: "انواع گچ سفید کاری",
     type: "اگر می‌خواهید خواننده متن فارسی‌تان را کنار نگذارد و آن را تا انتها بخواهند، ",
     src: Home3,
     dir: "rtl",
@@ -38,7 +38,7 @@ const ListH = () => {
         <div className="row StyleHeader items-center mb-12" >
           <div className="col-6"  style={{ textAlign: "start" }}>
             <div>
-              <h1 className="font-iransans font-bold text-4xl">خدمات ما</h1>
+              <h1 className="font-iransans font-bold text-4xl">محصولات ما</h1>
             </div>
           </div>
           <div className="col-6" style={{textAlign:"-webkit-left"}}>
@@ -67,7 +67,7 @@ const ListH = () => {
                     </h1>
                     <p
                       className="font-iransans"
-                      style={{ color: "#7b7777", fontWeight: "bold",fontSize:"16px" }}
+                      style={{ color: "#7b7777", fontWeight: "bold",fontSize:"16px",marginTop:"12px" }}
                     >
                       {item.type}
                     </p>
