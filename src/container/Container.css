@@ -1,3 +1,17 @@
 .StyleContauner{
     overflow-x: hidden;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.stylePhone{
+    position: fixed;
+    z-index: 200;
+    top: 50%;
+ 
+}
+.stylePhone h4{
+    font-size: 17px;
+    font-weight: bold;
+  
 }

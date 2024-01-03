@@ -30,6 +30,15 @@
   text-align: justify;
   width: 80%;
 }
+.stylePhone{
+  position: fixed;
+  z-index: 200;
+  top: 50%;
+}
+.stylePhone h4{
+  font-size: 17px;
+  font-weight: bold;
+}
 @media screen and (max-width: 1020px) {
   .Contaner{
     width: 100%;

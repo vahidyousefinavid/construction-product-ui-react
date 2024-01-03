@@ -2,7 +2,7 @@ import React from "react";
 import "./ListH.css";
 import Home1 from "../../image/photo slider/ceman.jpg";
 import Home2 from "../../image/photo slider/heblecs.jpg";
-import Home3 from "../../image/photo slider/slider2.jpg";
+import Home3 from "../../image/photo slider/cash.jpg";
 const Itemlist = [
   {
     id: 1,
@@ -22,7 +22,7 @@ const Itemlist = [
   },
   {
     id: 3,
-    title: "انواع گچ سفید کاری",
+    title: "استعلام قیمت",
     type: "اگر می‌خواهید خواننده متن فارسی‌تان را کنار نگذارد و آن را تا انتها بخواهند، ",
     src: Home3,
     dir: "rtl",

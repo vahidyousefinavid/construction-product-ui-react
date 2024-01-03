@@ -1,0 +1,32 @@
+.PossBtn{
+    right: -25px;
+    border: 1px solid #000 !important;
+    background-image: linear-gradient(to bottom , #c3c1c1, #f6f2f2);
+}
+
+.bg-style{
+
+    background-image: linear-gradient(to bottom , #9bf53b,#d5f3b6);
+    position: relative;
+}
+
+.stleMobile{
+    position: absolute;
+    top: 18%;
+}
+
+.PossBtn h5{
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+}
+
+.styleHeader{
+    font-family: 'iransans' !important;
+}
+@media screen and (max-width: 1020px) {
+    .PossBtn{
+        right: -2px;
+    }
+ }
+  

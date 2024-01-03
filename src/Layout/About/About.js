@@ -3,10 +3,11 @@ import "./About.css";
 import NavbarMain from "../Navbar/NavbarMain";
 import SliderAbout from "./SliderAbout/SliderAbout";
 import Footer from "../Footer/Footer";
-
+import Phone from '../../image/icons8-phone.svg'
 const About = () => {
   return (
     <div>
+      <span className='stylePhone'><img src={Phone}/><h4>09188808587</h4></span>
       <div className=" StlyeAll">
         <div className="StyleNav">
           <NavbarMain />
@@ -40,7 +41,9 @@ const About = () => {
         <div className="Contaner">
           <SliderAbout />
         </div>
-        <Footer />
+        <div style={{width:"100%"}}>
+          <Footer /> 
+        </div>
       </div>
     </div>
   );
