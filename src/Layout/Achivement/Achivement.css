@@ -14,7 +14,14 @@
     position: relative;
 }
 
-
+.StyleParag{
+    position: relative;
+}
+.StyleParag span{
+    position: absolute;
+    top: -1rem;
+    left: 13rem;
+}
 @media screen and (max-width: 1020px) {
   
  
@@ -36,6 +43,17 @@
     .StyleParag p{
         text-align: justify;
         font-size: 14px;
+    }
+
+    .StyleParag span{
+      display: none;
+    }
+
+    .styleModern{
+        position: absolute !important;
+        top: 45% !important;
+        right: 1rem !important;
+        font-size:30px !important ;
     }
 
  }

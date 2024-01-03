@@ -1,7 +1,8 @@
 .PossBtn{
     right: -25px;
-    border: 1px solid #000 !important;
-    background-image: linear-gradient(to bottom , #c3c1c1, #f6f2f2);
+    border: 1px solid #b1aeae !important;
+    border-radius: 0;
+    background-image: linear-gradient(to bottom , #eff1c2, #eff84b);
     
 }
 .PossBtn h5{
@@ -9,31 +10,41 @@
 }
 .bg-style{
 
-    background-image: linear-gradient(to bottom , #9bf53b,#d5f3b6);
+    background-image: linear-gradient(to bottom , #eff1c2,#f4fa85);
     position: relative;
 }
 
 .stleMobile{
     position: absolute;
-    top: 15%;
-    right: 3px;
+    top: 25%;
+    left: -3px;
 }
 
 .PossBtn h5{
     font-size: 17px;
     font-weight: bold;
-    color: #000;
+    color: #0d0d0d;
 }
 
 .styleHeader{
     font-family: 'iransans' !important;
+   
+}
+.styleHeader p{
+    margin-top: 30px !important;
 }
 .styleHeader h4{
     font-family: 'iransans-num';
+   
 }
 @media screen and (max-width: 1020px) {
     .PossBtn{
         right: -2px;
+   
+    }
+
+    .PossBtn h5{
+        display: none;
     }
  }
   

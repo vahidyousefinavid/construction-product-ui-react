@@ -8,6 +8,7 @@
     position: fixed;
     z-index: 200;
     top: 50%;
+    left: 0px;
  
 }
 .stylePhone h4{
@@ -15,3 +16,16 @@
     font-weight: bold;
   
 }
+
+@media screen and (max-width: 1020px) {
+    .stylePhone{
+        position: fixed;
+        z-index: 200;
+        top: 50%;
+        left: 0px;
+     
+    }
+      
+}
+  
+  

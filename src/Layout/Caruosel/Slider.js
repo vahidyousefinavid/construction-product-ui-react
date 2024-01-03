@@ -64,13 +64,13 @@ const Slider = () => {
       >
         <div className="col-sm-12 order-2 col-lg-6  text-center">
           <ul className="listButt">
-            {PageProd.map((item, index) => (
-              <li className="List" key={index}>
+            {/* {PageProd.map((item, index) => ( */}
+              {/* // <li className="List" key={index}> */}
                 {/* <Link className="List"  to={item.Page}> */}
-                {item.title}
+                {/* {item.title} */}
                 {/* </Link> */}
-              </li>
-            ))}
+              {/* </li> */}
+            {/* ))} */}
           </ul>
         </div>
         <div className="col-sm-12 order-1 col-lg-3  text-center">

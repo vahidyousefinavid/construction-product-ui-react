@@ -4,13 +4,14 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import Modal from "@mui/material/Modal";
 import "./ModalPhone.css";
-import Phone from "../../image/icons8-phone.svg";
+import Phone from "../../image/icons8-phone-40.svg";
 const style = {
   position: "absolute",
   top: "50%",
   left: "50%",
   transform: "translate(-50%, -50%)",
   width: 400,
+  height:200,
   bgcolor: "background.paper",
   // border: '2px solid #000',
   boxShadow: 24,
@@ -35,7 +36,7 @@ const ModalPhone = () => {
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
       >
-        <Box sx={style} className="bg-style">
+        <Box sx={style} className="bg-style ">
           <div className="stleMobile">
             <img
               src={require("../../image/photo slider/icons8-smartphone-96.png")}
@@ -47,7 +48,7 @@ const ModalPhone = () => {
             variant="h6"
             component="h2"
           >
-            شماره تماس ما
+          <p>  شماره تماس ما</p>
           </Typography>
           <Typography
             className="styleHeader"

@@ -29,9 +29,18 @@
   .styleLine::before{
  display: none;
   }
+  .styleLine h1 {
+    text-align: start !important;
+  }
+  .styleLine p{
+    text-align: start !important;
+  }
   .styleMargin{
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     direction: rtl !important;
+  }
+  .styleProd h1{
+    font-size: 30px !important;
   }
  }
 

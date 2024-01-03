@@ -33,8 +33,8 @@
 .stylePhone{
   position: fixed;
   z-index: 200;
-  top: 50%;
-  right: 35px;
+  top: 80%;
+  left: 0px;
 }
 .stylePhone h4{
   font-size: 17px;
@@ -54,8 +54,8 @@
   .stylePhone{
     position: fixed;
     z-index: 200;
-    top: 50%;
-    right: 20px;
+    top: 80%;
+    left: 2px;
   }
     
    }
