@@ -2,8 +2,11 @@
     right: -25px;
     border: 1px solid #000 !important;
     background-image: linear-gradient(to bottom , #c3c1c1, #f6f2f2);
+    
 }
-
+.PossBtn h5{
+    font-family: 'iransans';
+}
 .bg-style{
 
     background-image: linear-gradient(to bottom , #9bf53b,#d5f3b6);
@@ -12,7 +15,8 @@
 
 .stleMobile{
     position: absolute;
-    top: 18%;
+    top: 15%;
+    right: 3px;
 }
 
 .PossBtn h5{

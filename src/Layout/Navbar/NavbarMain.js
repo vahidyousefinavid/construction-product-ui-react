@@ -27,7 +27,7 @@ const NavbarMain = () => {
                   href="#home"
                   style={{ color: "#000", fontWeight: "bold" }}
                 >
-                  خانه
+                 <Link to="/">خانه</Link>
                 </Nav.Link>
                 <Nav.Link
                   href="#link"
