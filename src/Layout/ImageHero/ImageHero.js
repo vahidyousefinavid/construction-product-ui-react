@@ -85,7 +85,7 @@ const ImageHero = () => {
               className="font-iransans"
               style={{ color: "#000", fontWeight: "bold", fontSize: "18px" }}
             >
-              تلفن : <b className="font-iransans" style={{ color: "#000" }}>09188808587</b>
+              تلفن : <b style={{ color: "#000",fontFamily:'iransans-num'}}>09188808587</b>
             </span>
           </div>
         </div>

@@ -177,7 +177,7 @@ const Footer = () => {
               کلید ارتباط موثر با جهان سخن گفتن به زبان جهانیان است. خدمات ترجمه
               تخصصی ما که در کلاس جهانی ارائه می‌شود به شما کمک می‌کند
             </p>
-           <span className="font-iransans">شماره تلفن : 09188808587</span>
+           <span style={{fontFamily:'iransans-num'}}>شماره تلفن : 09188808587</span>
             <div
               className="row StyleObject"
               style={{ position: "absolute", bottom: "-3rem",left:"3rem" }}

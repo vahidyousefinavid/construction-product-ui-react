@@ -33,6 +33,7 @@ const Achieve = () => {
                 fontSize: "60px",
                 fontWeight: "bold",
                 color: "#000",
+                fontFamily:"iransans-num"
               }}
             >
               24
@@ -82,6 +83,7 @@ const Achieve = () => {
                       fontSize: "40px",
                       fontWeight: "bold",
                       color: "#f5cd00",
+                      fontFamily:"iransans-num"
                     }}
                   >
                     {item.number}

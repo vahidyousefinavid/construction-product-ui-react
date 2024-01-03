@@ -54,7 +54,7 @@ const ModalPhone = () => {
             id="modal-modal-description"
             sx={{ mt: 2 }}
           >
-            09188808587
+           <h4> 09188808587</h4>
           </Typography>
         </Box>
       </Modal>

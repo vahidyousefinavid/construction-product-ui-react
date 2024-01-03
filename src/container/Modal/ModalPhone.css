@@ -24,6 +24,9 @@
 .styleHeader{
     font-family: 'iransans' !important;
 }
+.styleHeader h4{
+    font-family: 'iransans-num';
+}
 @media screen and (max-width: 1020px) {
     .PossBtn{
         right: -2px;

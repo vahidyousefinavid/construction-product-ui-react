@@ -3,7 +3,6 @@ import "./About.css";
 import NavbarMain from "../Navbar/NavbarMain";
 import SliderAbout from "./SliderAbout/SliderAbout";
 import Footer from "../Footer/Footer";
-import Phone from '../../image/icons8-phone.svg'
 import ModalPhone from "../../container/Modal/ModalPhone";
 const About = () => {
   return (
