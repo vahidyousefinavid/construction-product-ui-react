@@ -34,6 +34,7 @@
   position: fixed;
   z-index: 200;
   top: 50%;
+  right: 35px;
 }
 .stylePhone h4{
   font-size: 17px;
@@ -43,11 +44,18 @@
   .Contaner{
     width: 100%;
     margin: 0 auto;
+    overflow-x: hidden;
 }
 
 
    .StlyeAll p{
     margin: 0 auto;
+  }
+  .stylePhone{
+    position: fixed;
+    z-index: 200;
+    top: 50%;
+    right: 20px;
   }
     
    }

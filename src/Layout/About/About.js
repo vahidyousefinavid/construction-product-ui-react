@@ -4,10 +4,11 @@ import NavbarMain from "../Navbar/NavbarMain";
 import SliderAbout from "./SliderAbout/SliderAbout";
 import Footer from "../Footer/Footer";
 import Phone from '../../image/icons8-phone.svg'
+import ModalPhone from "../../container/Modal/ModalPhone";
 const About = () => {
   return (
     <div>
-      <span className='stylePhone'><img src={Phone}/><h4>09188808587</h4></span>
+      <span className='stylePhone'><ModalPhone/></span>
       <div className=" StlyeAll">
         <div className="StyleNav">
           <NavbarMain />
